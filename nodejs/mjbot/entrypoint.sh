@@ -43,6 +43,9 @@ git pull
 # Install latest
 npm install
 
+# Build it
+tsc
+
 # Convert all of the "{{VARIABLE}}" parts of the command into the expected shell
 # variable format of "${VARIABLE}" before evaluating the string and automatically
 # replacing the values.
