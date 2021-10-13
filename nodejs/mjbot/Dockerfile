@@ -2,6 +2,10 @@ FROM node:16
 
 LABEL author="Matthew Mjelde" maintainer="webmaster@mjmfighter.com"
 
+RUN apt-get update -y
+
+RUN apt-get install -y ffmpeg wget gnupg ca-certificates
+
 RUN npm install -g typescript@4.3.5
 
 USER container
