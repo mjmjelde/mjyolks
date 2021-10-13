@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - nodejs/*
 jobs:
   push:
     name: "yolks:nodejs_${{ matrix.tag }}"
