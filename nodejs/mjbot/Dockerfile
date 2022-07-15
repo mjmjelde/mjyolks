@@ -6,8 +6,6 @@ RUN apt-get update -y
 
 RUN apt-get install -y ffmpeg wget gnupg ca-certificates
 
-RUN npm install -g typescript@4.3.5
-
 USER container
 ENV USER=container  HOME=/home/container
 WORKDIR /home/container
