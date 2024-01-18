@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:18
 
 LABEL author="Matthew Mjelde" maintainer="webmaster@mjmfighter.com"
 
